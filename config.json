@@ -1,7 +1,7 @@
 {
     "cookies":"",
-    "tmp_path":"./tmp",
-    "output_file":"dateset.xlsx",
-    "douban":[36208094,34951373],
-    "maoyan":[43]
+    "tmp_path":"./Data",
+    "output_file":"DoubanComments.xlsx",
+    "douban":[26322774,26746958,27114417,5364905,26894554,4913222,24706498,25830800,5948595,4022010],
+    "maoyan":[]
 }
