@@ -19,4 +19,3 @@ python get_dataset.py
     "maoyan":[43] // 同理的猫眼电影id
 }
 ```
-
