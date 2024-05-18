@@ -3,7 +3,6 @@ from libs.tools import *
 
 CONFIG_FILE = 'config.json'
 
-
 def auto_get_comments():
     config = load_json(CONFIG_FILE)
     cookie_str = config.get('cookies', '')
@@ -11,7 +10,9 @@ def auto_get_comments():
     tmp_path=config.get('tmp_path','./tmp')
     output=config.get('output_file','dataset.xlsx')
     douban_tasks=config.get("douban")
+    douban_tasks = list(set(douban_tasks))
     maoyan_tasks=config.get("maoyan")
+    maoyan_tasks = list(set(maoyan_tasks))
     for task in douban_tasks:
         get_all_comments(movie_id=task, platform="douban", cookies=cookies,save_dir=tmp_path)
     for task in maoyan_tasks:
