@@ -3,3 +3,7 @@ config.json
 Data-1
 SnowNLP.ipynb
 DivideComment.ipynb
+SnowNLP/流浪地球_sentiment.xlsx
+SnowNLP/流浪地球.xlsx
+# SnowNLP/MovieComments.xlsx
+SnowNLP/MovieComments.xlsx
